@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://13.201.172.166',
+    origin:'http://16.171.175.78',
     credentials:true
 }
 
