@@ -16,14 +16,13 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
-import cors from "cors";
 
 const corsOptions = {
     origin: [
         'http://localhost:5173',
         'http://localhost:5174',
-        'http://mdfaiz-react-vite-frontend-26.s3-website.ap-south-1.amazonaws.com'
-    ],
+        'http://mdfaiz-react-vite-frontend-26.s3-website.ap-south-1.amazonaws.com',
+     ],
     credentials: true
 }
 
