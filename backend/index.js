@@ -22,7 +22,6 @@ const corsOptions = {
         'http://localhost:5173',
         'http://localhost:5174',
         'http://mdfaiz-react-vite-frontend-26.s3-website.ap-south-1.amazonaws.com',
-        'http://16.171.147.224'
     ],
     credentials: true
 }
